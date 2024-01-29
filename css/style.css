@@ -50,13 +50,13 @@ p{
     display: block;
     border-radius: 5px;
     font-size: 14px;  
-    /*text-align: center;*/
 }
 #works a:hover{
     background-color: #434d58;
     padding: 12px;
     margin: 10px;
     font-size: 15px;
+    border-bottom: 5px solid white;
 }
 #works a:active{
     background-image: linear-gradient(to top,#434d58 ,#2b3843);
@@ -148,4 +148,22 @@ table{
 }
 ul{
  display: block;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+    margin: 5px;
+
+}
+footer a:hover{
+    color:lightgray;
+    
+}
+footer p{
+    margin-top:3%;
+}
+footer a:active{
+    color:white;
+    text-decoration: underline;
+    
 }
