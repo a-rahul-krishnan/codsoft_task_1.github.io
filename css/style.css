@@ -50,6 +50,8 @@ p{
     display: block;
     border-radius: 5px;
     font-size: 14px;  
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 #works a:hover{
     background-color: #434d58;
@@ -72,6 +74,7 @@ p{
     width: 150px;
     display: inline;
     margin: 10px;
+    transition-duration: 0.2s
 }
 #dp:hover{
     border:3px solid #8e959c;
@@ -87,6 +90,7 @@ p{
     width: 40px;
     margin: 3px;
     display: inline;
+    transition-duration: 0.1s
 }
 #icon a:hover img{
     height: 45px;
@@ -109,6 +113,7 @@ p{
     border:2px solid #9bcefa;
     display: inline-block;
     margin-bottom: 20px;
+    transition-duration: 0.2s
 }
 #cv{
    
@@ -153,6 +158,7 @@ footer a{
     color:white;
     text-decoration: none;
     margin: 5px;
+    transition-duration: 0.1s
 
 }
 footer a:hover{
